@@ -12,5 +12,5 @@ Feedback--in progress
 
 Resources--
 Udacity Data Visualization course lessons
-dimple.js.org 
+and dimple.js.org 
 
