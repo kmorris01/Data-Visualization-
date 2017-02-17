@@ -7,6 +7,7 @@ Creating charts/graphs to show visually the impacts of the Titanic Disaster.  Th
 #Design--Data Visualization--dimple.js
 I will be using dimple.js to display the charts.
 index.html--original file
+
 index_1.html--file after feedback 1 (Abbie M.)
 
 #Feedback--Titanic Charts
