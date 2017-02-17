@@ -1,4 +1,4 @@
-# Data-Visualization-Titanic Data--Kristy Morris for Data Visualization Project 6
+# Data-Visualization-Titanic Data--Kristy Morris for Udacity Data Visualization Project 6
 
 
 #Summary--
