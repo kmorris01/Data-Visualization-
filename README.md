@@ -13,6 +13,7 @@ index_1.html--file after feedback 1 (Abbie M.)
 
 #Feedback--Titanic Charts
 1) Feedback-- Abbie M.---Abbie, stated that all the colors male and female should match up and placement of charts should be side to side instead of down the page, would be easier to read that way.  To incorporate these changes--index_1.html was created.
+
 2) Feedback--Jason M. ---Jason, stated that he doesn't know what any of the charts are about--no title 
 
 #Resources--
