@@ -8,7 +8,7 @@ Design--Data Visualization--dimple.js
 
 I will be using dimple.js to display the charts.
 
-Feedback--in progress
+Feedback--Titanic Charts
 
 #1 Feedback-- Abbie M.---Abbie, stated that all the colors male and female should match up and placement of charts should be side to side instead of down the page, would be easier to read that way.
 
