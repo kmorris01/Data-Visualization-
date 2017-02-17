@@ -8,7 +8,7 @@ Creating charts/graphs to show visually the impacts of the Titanic Disaster.  Th
 I will be using dimple.js to display the charts.
 
 #Feedback--Titanic Charts
-1) Feedback-- Abbie M.---Abbie, stated that all the colors male and female should match up and placement of charts should be side to side instead of down the page, would be easier to read that way.
+1) Feedback-- Abbie M.---Abbie, stated that all the colors male and female should match up and placement of charts should be side to side instead of down the page, would be easier to read that way.  To incorporate these changes--index_1.html was created.
 
 #Resources--
 Udacity Data Visualization course lessons
