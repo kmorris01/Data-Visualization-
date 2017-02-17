@@ -12,6 +12,5 @@ I will be using dimple.js to display the charts.
 
 #Resources--
 Udacity Data Visualization course lessons
-
 http://dimplejs.org/examples_index.html
 
