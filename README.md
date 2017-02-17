@@ -17,7 +17,9 @@ index_2.html--file after feedback 2 (Jason M.)
 #Feedback--Titanic Charts
 1) Feedback-- Abbie M.---Abbie, stated that all the colors male and female should match up and placement of charts should be side to side instead of down the page, would be easier to read that way.  To incorporate these changes--index_1.html was created.
 
-2) Feedback--Jason M. ---Jason, stated that he doesn't know what any of the charts are about--no title 
+2) Feedback--Jason M. ---Jason, stated that he doesn't know what any of the charts are about--no titles.   To incorporate these changes--index_2.html was created.
+
+3) Feedback---Tyler M. ---Tyler, stated does not know what the numbers 1, 2, 3, mean in the Pclass, and does not know what the letters mean for Embarked.  Should be the names of the classes and the names of the cities.  To incorporate these changes---index_3.html was created after data file was also updated.
 
 #Resources--
 Udacity Data Visualization course lessons
