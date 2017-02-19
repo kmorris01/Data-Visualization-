@@ -12,6 +12,7 @@ index.html--original file
 index_1.html--file after feedback 1 (Abbie M.)
 
 index_2.html--file after feedback 2 (Jason M.)
+Picture with file name index 2 pic and index 2 pic pie
 
 index_3.html--file after feedback 3 (Tyler M.)  
 Picture with file name index 3 pic and index 3 pic pie
