@@ -10,6 +10,8 @@ I will be using dimple.js to display the charts.
 index.html--original file
 
 index_1.html--file after feedback 1 (Abbie M.)
+     
+     *Picture with file name index 1 pic and index 1 pic 2
 
 index_2.html--file after feedback 2 (Jason M.)
 
