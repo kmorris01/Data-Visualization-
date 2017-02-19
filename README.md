@@ -15,7 +15,7 @@ index_2.html--file after feedback 2 (Jason M.)
 
 index_3.html--file after feedback 3 (Tyler M.)
 
-Final_index.html file indicates one chart with animation of all the factors.  (Embarked, AgeRange, Sex, Pclassm and Survived) 
+Final_index.html file indicates one chart with animation of all the factors.  (Embarked, AgeRange, Sex, Pclass and Survived) 
 
 I chose to use an age range in the final storyboard type chart since the chart was more designed for dates.  I did this by updating the original data file with age ranges in groups of 10.
 
