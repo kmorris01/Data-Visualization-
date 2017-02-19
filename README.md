@@ -19,6 +19,8 @@ Final_index.html file indicates one chart with animation of all the factors.  (E
 
 I chose to use an age range in the final storyboard type chart since the chart was more designed for dates.  I did this by updating the original data file with age ranges in groups of 10.
 
+I decided to use bar charts to display the visualizations, however I also incorporated one Pie Chart to show the magnitude of female vs male survival compared to the entire population.
+
 
 #Feedback--Titanic Charts
 1) Feedback-- Abbie M.---Abbie, stated that all the colors male and female should match up and placement of charts should be side to side instead of down the page, would be easier to read that way.  To incorporate these changes--index_1.html was created.
