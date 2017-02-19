@@ -32,6 +32,10 @@ http://codepen.io/SimonFletcher/pen/JXyxvo
 
 http://jsbin.com/kixezofeji/edit?js,output
 
+http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control
+
+
+
 
 
 
