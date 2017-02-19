@@ -13,7 +13,8 @@ index_1.html--file after feedback 1 (Abbie M.)
 
 index_2.html--file after feedback 2 (Jason M.)
 
-index_3.html--file after feedback 3 (Tyler M.)  Picture with file name index 3 pic and index 3 pic pie
+index_3.html--file after feedback 3 (Tyler M.)  
+Picture with file name index 3 pic and index 3 pic pie
 
 Final_index.html file indicates one chart with animation of all the factors.  (Embarked, AgeRange, Sex, Pclass and Survived) 
 
