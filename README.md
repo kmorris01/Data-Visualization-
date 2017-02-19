@@ -23,6 +23,10 @@ index_3.html--file after feedback 3 (Tyler M.)
 
 3) Feedback---Tyler M. ---Tyler, stated does not know what the numbers 1, 2, 3, mean in the Pclass, and does not know what the letters mean for Embarked.  Should be the names of the classes and the names of the cities.  To incorporate these changes---index_3.html was created after data file was also updated.
 
+Final_index.html file indicates one chart with animation of all the factors.  (Embarked, AgeRange, Sex, Pclassm and Survived) 
+
+I chose to use an age range in the final storyboard type chart since the chart was more designed for dates.  I did this by updating the original data file with age ranges in groups of 10.
+
 #Resources--
 Udacity Data Visualization course lessons
 
