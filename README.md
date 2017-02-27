@@ -2,7 +2,7 @@
 
 
 #Summary--
-Creating charts/graphs to show visually the impacts of the Titanic Disaster.  The charts/graphs will show number of survivals based on classes, age groups & sex.  In exploring the data I found that Females and Upper Class had a higher survival rate, compared to males and lower class.  I had known this already before the visualizations, however it proved in.  The interesting thing I found was that more survivals came from the Embarked location of Southhampton compared to the other locations. The Females had a much higher chance of survival than the males did.  The data also showed alot of families were aboard the Titanic.  You will see this in the Parents/Children and Siblings/Spouse Charts.  
+Creating charts/graphs to show visually the impacts of the Titanic Disaster.  The charts/graphs will show number of survivals based on classes, age groups & sex.  The data showed that Females and Upper Class had a higher survival rate, compared to males and lower class.  I had known this already before the visualizations, however it proved in.  The interesting thing I found was that more survivals came from the Embarked location of Southhampton compared to the other locations. The Females had a much higher chance of survival than the males did.  The data also showed alot of families were aboard the Titanic.  You will see this in the Parents/Children and Siblings/Spouse Charts.  
 
 #Design--Data Visualization--dimple.js
 I will be using dimple.js to display the charts.
