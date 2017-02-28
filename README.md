@@ -2,10 +2,12 @@
 
 
 #Summary--
-I have created charts/graphs to show visually the impacts of the Titanic Disaster.  The charts/graphs will show number of survivals based on classes, age groups & sex.  The data showed that Females and Upper Class had a higher survival rate, compared to males and lower class. According to the course content, I decided to use bar charts to display the data.  I also, chose to use a couple of pie charts to help tell the story of the magnitude of the survival rates. The interesting thing I found was that more survivals came from the Embarked location of Southhampton compared to the other locations. The Females had a much higher chance of survival than the males did, and in the pie charts you can see this information.  The data also showed alot of families were aboard the Titanic.  You will see this in the Parents/Children and Siblings/Spouse Charts.  
+I have created charts/graphs to show visually the impacts of the Titanic Disaster.  These visualizations aim to emphasis the difference survival chance across categories, so that the viewers can compare it easily. Moreover, interactive chart (with mouse over) allows the viewers to explore the category of interest on their own.  The charts/graphs will show number of survivals based on classes, age groups & sex.  The data showed that Females and Upper Class had a higher survival rate, compared to males and lower class. According to the course content, I decided to use bar charts to display the data.  I also, chose to use a couple of pie charts to help tell the story of the magnitude of the survival rates. The interesting thing I found was that more survivals came from the Embarked location of Southhampton compared to the other locations. The Females had a much higher chance of survival than the males did, and in the pie charts you can see this information.  The data also showed alot of families were aboard the Titanic.  You will see this in the Parents/Children and Siblings/Spouse Charts.  
 
 #Design--Data Visualization--dimple.js
 I will be using dimple.js to display the charts.
+
+Objective: The story in these visuals is how the chance of survival varies across different passenger class and between children women and men. The data I want to encode in the charts includes passenger class, gender, whether they are children, parents and/or siblings and spouses.
 
 index.html--original file
 
