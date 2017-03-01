@@ -1,0 +1,137 @@
+<html>
+<head>
+  <div id="chartContainer">
+  <div id="chartContainer1">
+  <div id="chartContainer2">
+  <div id="chartContainer3"> 
+  <div id="chartContainer4"> 
+  <meta charset="utf-8"> 
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+<style>
+      h2 {
+        color: black;
+        text-align: center;
+      }
+    </style>
+
+</head>
+<body>
+
+
+  <script type="text/javascript">
+    
+    
+    //Chart 1  Titanic Survived Passenger Class (Pclass Female/Male) 
+    //this chart indicates How many survived by class and sex.
+    //Passengers from the first class (Upper Class) had the best chances to survive.
+    var svg = dimple.newSvg("#chartContainer1", 590, 400);
+    d3.csv('titanic_data_2.csv', function (data){
+    var myChart1 = new dimple.chart(svg, data);
+    
+    var x = myChart1.addCategoryAxis("x", "Pclass");
+      x.addOrderRule(["Upper","Middle","Lower"],false);
+      myChart1.addMeasureAxis("y", "Survived");
+      myChart1.addSeries("Sex", dimple.plot.bar);
+      myChart1.addLegend(95, 10, 510, 20, "right");
+                 
+    c = new dimple.chart(svg, data);
+    c.draw();
+    svg.append("text")
+      .attr("x", c._xPixels() + c._widthPixels() / 2)
+      .attr("y", c._yPixels() - 20)
+      .style("text-anchor", "middle")
+      .style("font-family", "sans-serif")
+      .style("font-weight", "bold")
+      .text("Upper Class Passengers had Higher Survivals")
+    myChart1.draw();
+    });
+
+           
+
+     //Chart 2 Titanic Total Males/Females on board
+     //this pie chart indicates how many total males/females survived, //along with percentage rates.
+     var svg4 = dimple.newSvg("#chartContainer4", 590, 400);
+     d3.csv('titanic_data_2.csv', function (data){
+     var myChart5 = new dimple.chart(svg4, data);
+     myChart5.setBounds(20, 20, 460, 360)
+     myChart5.addMeasureAxis("p", "Survived");
+     myChart5.addSeries("Sex", dimple.plot.pie);
+     myChart5.addLegend(500, 20, 90, 300, "left");
+
+     c = new dimple.chart(svg4, data);
+     c.draw();
+     svg4.append("text")
+      .attr("x", c._xPixels() + c._widthPixels() / 2)
+      .attr("y", c._yPixels() - 25)
+      .style("text-anchor", "middle")
+      .style("font-family", "sans-serif")
+      .style("font-weight", "bold")
+      .text("Females had a much better chance of Survival")
+    myChart5.draw();
+          
+     });
+
+     //Chart 3 Titanic Survived Passenger Class (Pclass Female/Male) 
+    //this chart indicates How many survived by class and sex.
+    //Passengers from the first class (Upper Class) had the best //chances to survive.  This chart represents rates.  Notice 80% of //females survived from the middle class.
+    var svg6 = dimple.newSvg("#chartContainer1", 590, 400);
+    d3.csv('titanic_data_2.csv', function (data){
+    var myChart7 = new dimple.chart(svg6, data);
+    
+    var x = myChart7.addCategoryAxis("x", "Pclass");
+      x.addOrderRule(["Upper","Middle","Lower"],false);
+
+      myChart7.addPctAxis("y", "Survived");
+      myChart7.addSeries("Sex", dimple.plot.bar);
+      myChart7.addLegend(65, 10, 510, 20, "right");
+
+                       
+    c = new dimple.chart(svg6, data);
+    c.draw();
+    svg6.append("text")
+      .attr("x", c._xPixels() + c._widthPixels() / 2)
+      .attr("y", c._yPixels() - 20)
+      .style("text-anchor", "middle")
+      .style("font-family", "sans-serif")
+      .style("font-weight", "bold")
+      .text("Titanic Passenger Survival Rates")
+    myChart7.draw();
+    });
+    
+
+    //Chart 4 This is a pie chart representing total passengers //aboard, when looking at the other pie chart next to this one you //can see the rates in relation to the total  number of passengers //aboard.  Very Sad to see that only 38% of the passengers //survived --Or 342 of the 891 total aboard
+
+    var svg7 = dimple.newSvg("#chartContainer4", 590, 400);
+     d3.csv('titanic_data_2.csv', function (data){
+     var myChart8 = new dimple.chart(svg7, data);
+     myChart8.setBounds(20, 20, 460, 360)
+     myChart8.addMeasureAxis("p", "Survived");
+     
+     myChart8.addLegend(500, 20, 90, 300, "left");
+
+     var mySeries = myChart8.addSeries("Survived", dimple.plot.pie);
+      mySeries.aggregate = dimple.aggregateMethod.count;
+
+
+     c = new dimple.chart(svg7, data);
+     c.draw();
+     svg7.append("text")
+      .attr("x", c._xPixels() + c._widthPixels() / 2)
+      .attr("y", c._yPixels() - 25)
+      .style("text-anchor", "middle")
+      .style("font-family", "sans-serif")
+      .style("font-weight", "bold")
+      .text("Titanic Passengers Survival and Parished")
+    myChart8.draw();
+          
+     });
+
+
+
+     
+
+    
+  </script>
+</body>
+</html>
