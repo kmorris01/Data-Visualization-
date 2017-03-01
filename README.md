@@ -2,7 +2,7 @@
 
 
 #Summary--
-I have created charts/graphs to show visually the impacts of the Titanic Disaster.  These visualizations aim to emphasis the difference survival chance across categories, so that the viewers can compare it easily. Moreover, interactive chart (with mouse over) allows the viewers to explore the category of interest on their own.  The charts/graphs will show number of survivals based on classes & sex.  The data showed that Females and Upper Class had a higher survival rate, compared to males and lower class. According to the course content, I decided to use bar charts to display the data, however I also, selected to use a couple of pie charts to help tell the story of the magnitude of the survival and perished rates.   
+I have created 4 charts/graphs to show visually the impacts of the Titanic Disaster.  These visualizations aim to emphasis the difference survival chance across categories, so that the viewers can compare it easily. Moreover, interactive chart (with mouse over) allows the viewers to explore the category of interest on their own.  The charts/graphs will show number of survivals based on classes & sex.  The data showed that Females and Upper Class had a higher survival rate, compared to males and lower class. According to the course content, I decided to use bar charts to display the data, however I also, selected to use a couple of pie charts to help tell the story of the magnitude of the survival and perished rates.   
 
 #Design--Data Visualization--dimple.js
 I will be using dimple.js to display the charts.
