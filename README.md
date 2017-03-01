@@ -34,6 +34,8 @@ I chose to use an age range in the final storyboard type chart since the chart w
 I decided to use 4 bar charts to display the visualizations, and incorporate one Pie Chart to show the magnitude of female vs male survival compared to the survived population.  This easily demonstrates that 68% of females survived compared to only 32% of males surviving.  I also updated the data to as shown in file titanic_data_1 to show Pclass as Lower, Middle and Upper.  And to show the Embarked city names instead of letters.  All of this was done based on feedback as displayed below.
 
   **I removed final_html at the suggestion of the reviewer, as index 3 html had the the charts desired.  I updated data to titanic_data_2 to correct typo of Southhampton.
+  
+  ***I updated index 3 HTML to index 3.1 HTML after review from feedback of grader about not really needed all the variables.
 
 
 #Feedback--Titanic Charts
